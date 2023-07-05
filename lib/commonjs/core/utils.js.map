@@ -1,0 +1,1 @@
+{"version":3,"names":["genId","count","toString"],"sources":["utils.ts"],"sourcesContent":["export const genId = (() => {\n  let count = 0;\n  return () => {\n    return (++count).toString();\n  };\n})();\n"],"mappings":";;;;;;;AAAO,MAAMA,KAAK,GAAG,CAAC,MAAM;EAC1B,IAAIC,KAAK,GAAG,CAAZ;EACA,OAAO,MAAM;IACX,OAAO,CAAC,EAAEA,KAAH,EAAUC,QAAV,EAAP;EACD,CAFD;AAGD,CALoB,GAAd"}
